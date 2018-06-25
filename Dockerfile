@@ -17,12 +17,7 @@
 # granted to it by virtue of its status as an Intergovernmental Organization or
 # submit itself to any jurisdiction.
 
-FROM ubuntu:16.04
-RUN apt-get update
-RUN apt-get -y upgrade
-RUN apt-get -y install rabbitmq-server
-RUN apt-get -y autoremove && apt-get -y clean
-RUN service rabbitmq-server start
+FROM rabbitmq:3.6-alpine
 ADD start.sh /start.sh
 RUN chmod 755 ./start.sh
 #RUN rabbitmqctl add_user test 1234
