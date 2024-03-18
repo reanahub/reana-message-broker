@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.4](https://github.com/reanahub/reana-message-broker/compare/0.9.3...0.9.4) (2024-03-18)
+
+
+### Continuous integration
+
+* **actions:** update GitHub actions due to Node 16 deprecation ([#68](https://github.com/reanahub/reana-message-broker/issues/68)) ([a93ff15](https://github.com/reanahub/reana-message-broker/commit/a93ff15caa0dc80f0652480e68a2367bcf75aeb7))
+
 ## [0.9.3](https://github.com/reanahub/reana-message-broker/compare/0.9.2...0.9.3) (2024-03-01)
 
 
