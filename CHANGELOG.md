@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.9.4](https://github.com/reanahub/reana-message-broker/compare/0.9.3...0.9.4) (2024-08-07)
+
+
+### Build
+
+* **python:** add minimal `pyproject.toml` ([#71](https://github.com/reanahub/reana-message-broker/issues/71)) ([a93c1d6](https://github.com/reanahub/reana-message-broker/commit/a93c1d69c8c7d822bb149861529d2e93087a0e54))
+* **python:** remove deprecated `pytest-runner` ([#71](https://github.com/reanahub/reana-message-broker/issues/71)) ([d5d1d50](https://github.com/reanahub/reana-message-broker/commit/d5d1d501414c958375c4cd71dd1e08206dfa5c63))
+* **python:** use optional deps instead of `tests_require` ([#71](https://github.com/reanahub/reana-message-broker/issues/71)) ([bc33342](https://github.com/reanahub/reana-message-broker/commit/bc33342290662c9ccf47741c3a5be828aa79f98a))
+
+
+### Continuous integration
+
+* **actions:** update GitHub actions due to Node 16 deprecation ([#68](https://github.com/reanahub/reana-message-broker/issues/68)) ([a93ff15](https://github.com/reanahub/reana-message-broker/commit/a93ff15caa0dc80f0652480e68a2367bcf75aeb7))
+* **actions:** upgrade to Ubuntu 24.04 and Python 3.12 ([#70](https://github.com/reanahub/reana-message-broker/issues/70)) ([a8b37d0](https://github.com/reanahub/reana-message-broker/commit/a8b37d0a9554f21e424d0d151a3dc158f9641b95))
+* **commitlint:** improve checking of merge commits ([#70](https://github.com/reanahub/reana-message-broker/issues/70)) ([dd73d57](https://github.com/reanahub/reana-message-broker/commit/dd73d5730160683e1e1ad4d65a805af936942ea5))
+* **pytest:** invoke `pytest` directly instead of `setup.py test` ([#71](https://github.com/reanahub/reana-message-broker/issues/71)) ([4cbe67a](https://github.com/reanahub/reana-message-broker/commit/4cbe67ac5d6584a0622049f7da0c04173b341497))
+
 ## [0.9.3](https://github.com/reanahub/reana-message-broker/compare/0.9.2...0.9.3) (2024-03-01)
 
 
