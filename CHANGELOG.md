@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.4](https://github.com/reanahub/reana-message-broker/compare/0.9.3...0.9.4) (2024-09-03)
+
+
+### Continuous integration
+
+* **actions:** pin setuptools 70 ([#72](https://github.com/reanahub/reana-message-broker/issues/72)) ([1de393e](https://github.com/reanahub/reana-message-broker/commit/1de393efa1c07b7bb9594ec18dd910c39e1054c4))
+
 ## [0.9.3](https://github.com/reanahub/reana-message-broker/compare/0.9.2...0.9.3) (2024-03-01)
 
 
