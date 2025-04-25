@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.9.4](https://github.com/reanahub/reana-message-broker/compare/0.9.3...0.9.4) (2025-04-25)
+
+
+### Continuous integration
+
+* **actions:** pin setuptools 70 ([#72](https://github.com/reanahub/reana-message-broker/issues/72)) ([1de393e](https://github.com/reanahub/reana-message-broker/commit/1de393efa1c07b7bb9594ec18dd910c39e1054c4))
+* **runners:** upgrade CI runners to Ubuntu 22.04 ([#75](https://github.com/reanahub/reana-message-broker/issues/75)) ([aa80302](https://github.com/reanahub/reana-message-broker/commit/aa803021049ee736123e9b1270b3327bad3bfce6))
+
 ## [0.9.3](https://github.com/reanahub/reana-message-broker/compare/0.9.2...0.9.3) (2024-03-01)
 
 
