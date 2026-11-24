@@ -4,9 +4,11 @@
 # REANA is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
 
-FROM docker.io/library/rabbitmq:3.8-management
+FROM docker.io/library/rabbitmq:4.4.1-management
 
 ENV RABBITMQ_NODENAME=rabbit@localhost
+# Keep the data apart from the data of RabbitMQ 3, which RabbitMQ 4 cannot read
+ENV RABBITMQ_MNESIA_BASE=/var/lib/rabbitmq/mnesia/4
 ENV DEBUG=0
 
 COPY start.sh /start.sh
