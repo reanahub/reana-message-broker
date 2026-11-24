@@ -21,6 +21,7 @@ cat >/etc/rabbitmq/rabbitmq.config <<EOF
 EOF
 mkdir -p "$RABBITMQ_MNESIA_BASE"
 chown rabbitmq:rabbitmq "$RABBITMQ_MNESIA_BASE"
-# Limit maximum number of open file descriptors to avoid high memory usage
-ulimit -n 1048576
+# Limit maximum number of open file descriptors to avoid high memory usage, or
+# use the highest number allowed if it is lower
+ulimit -n 524288 2>/dev/null || ulimit -Sn hard
 exec rabbitmq-server
